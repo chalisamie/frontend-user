@@ -14,6 +14,7 @@ import SearchBar from "./components/SearchBar";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Verify from "./pages/Verify";
+export const backendUrl = import.meta.env.VITE_BACKEND_URL;
 
 const App = () => {
   return (
